@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "myWorks.Controllers.ApplicantController",
+    "Method": "CreateApplicantInformation",
+    "RelativePath": "api/Applicant/CreateApplicantInformation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cmd",
+        "Type": "myWorks.Application.Features.ApplicantManagement.Command.CreateApplicant.CreateApplicantInformationCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myWorks.Controllers.ApplicantController",
+    "Method": "GetApplicantInformation",
+    "RelativePath": "api/Applicant/GetApplicantInformation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myWorks.Controllers.ApplicantController",
+    "Method": "GetApplicantInformationById",
+    "RelativePath": "api/Applicant/GetApplicantInformationById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myWorks.Controllers.InterviewDetailController",
+    "Method": "GetInterviewDetailByApplicantId",
+    "RelativePath": "api/InterviewDetail/GetInterviewDetailByApplicantId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "myWorks.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[myWorks.WeatherForecast, myWorks, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

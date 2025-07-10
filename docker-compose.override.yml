@@ -1,0 +1,41 @@
+services:
+  myworks:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8080
+      - ASPNETCORE_HTTPS_PORTS=8081
+      - DATABASE_HOST=myWorkDb_mssql
+      - DATABASE_PORT=1400
+      - DATABASE_HOST=myWorks_HangfireDb
+      - DATABASE_PORT=1455 
+    ports:
+      - "8080"
+      - "8081"
+    volumes:
+      - ${APPDATA}/Microsoft/UserSecrets:/home/app/.microsoft/usersecrets:ro
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+      - ${APPDATA}/ASP.NET/Https:/home/app/.aspnet/https:ro
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+    networks:
+      - my_custom_app_network
+    depends_on: 
+      seq_logs:
+        condition: service_started
+  seq_logs:
+    image: datalust/seq:latest
+    container_name: seq_logs
+    environment:
+      - ACCEPT_EULA=Y
+      - SEQ_FIRSTRUN_ADMINPASSWORD=StrongP@ssw0rd
+    restart: unless-stopped
+    ports:
+      - "5342:80"
+    networks:
+      - my_custom_app_network
+networks:
+  my_custom_app_network:
+    external: true
+
+    
+  
+  

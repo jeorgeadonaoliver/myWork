@@ -1,0 +1,15 @@
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Application\bin\Debug\net8.0\myWorks.Application.deps.json
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Application\bin\Debug\net8.0\myWorks.Application.dll
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Application\bin\Debug\net8.0\myWorks.Application.pdb
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Application\bin\Debug\net8.0\myWorks.Domain.dll
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Application\bin\Debug\net8.0\myWorks.Domain.pdb
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Application\obj\Debug\net8.0\myWorks.Application.csproj.AssemblyReference.cache
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Application\obj\Debug\net8.0\myWorks.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Application\obj\Debug\net8.0\myWorks.Application.AssemblyInfoInputs.cache
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Application\obj\Debug\net8.0\myWorks.Application.AssemblyInfo.cs
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Application\obj\Debug\net8.0\myWorks.Application.csproj.CoreCompileInputs.cache
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Application\obj\Debug\net8.0\myWorks..A9A4B885.Up2Date
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Application\obj\Debug\net8.0\myWorks.Application.dll
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Application\obj\Debug\net8.0\refint\myWorks.Application.dll
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Application\obj\Debug\net8.0\myWorks.Application.pdb
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Application\obj\Debug\net8.0\ref\myWorks.Application.dll

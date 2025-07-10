@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ld9WPElKc8w=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jeorge Oliver\\source\\DockerProjects\\myWork\\myWorks.Service\\myWorks.Service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jeorge Oliver\\.nuget\\packages\\fluentresults\\4.0.0\\fluentresults.4.0.0.nupkg.sha512",
+    "C:\\Users\\Jeorge Oliver\\.nuget\\packages\\hangfire\\1.8.20\\hangfire.1.8.20.nupkg.sha512",
+    "C:\\Users\\Jeorge Oliver\\.nuget\\packages\\hangfire.aspnetcore\\1.8.20\\hangfire.aspnetcore.1.8.20.nupkg.sha512",
+    "C:\\Users\\Jeorge Oliver\\.nuget\\packages\\hangfire.core\\1.8.20\\hangfire.core.1.8.20.nupkg.sha512",
+    "C:\\Users\\Jeorge Oliver\\.nuget\\packages\\hangfire.netcore\\1.8.20\\hangfire.netcore.1.8.20.nupkg.sha512",
+    "C:\\Users\\Jeorge Oliver\\.nuget\\packages\\hangfire.sqlserver\\1.8.20\\hangfire.sqlserver.1.8.20.nupkg.sha512",
+    "C:\\Users\\Jeorge Oliver\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.0.0\\microsoft.extensions.configuration.abstractions.3.0.0.nupkg.sha512",
+    "C:\\Users\\Jeorge Oliver\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\Jeorge Oliver\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.0.0\\microsoft.extensions.fileproviders.abstractions.3.0.0.nupkg.sha512",
+    "C:\\Users\\Jeorge Oliver\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\3.0.0\\microsoft.extensions.hosting.abstractions.3.0.0.nupkg.sha512",
+    "C:\\Users\\Jeorge Oliver\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.0\\microsoft.extensions.logging.abstractions.3.0.0.nupkg.sha512",
+    "C:\\Users\\Jeorge Oliver\\.nuget\\packages\\microsoft.extensions.primitives\\3.0.0\\microsoft.extensions.primitives.3.0.0.nupkg.sha512",
+    "C:\\Users\\Jeorge Oliver\\.nuget\\packages\\newtonsoft.json\\11.0.1\\newtonsoft.json.11.0.1.nupkg.sha512",
+    "C:\\Users\\Jeorge Oliver\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}

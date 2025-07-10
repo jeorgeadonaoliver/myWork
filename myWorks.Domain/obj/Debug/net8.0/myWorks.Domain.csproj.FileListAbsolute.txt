@@ -1,0 +1,11 @@
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Domain\bin\Debug\net8.0\myWorks.Domain.deps.json
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Domain\bin\Debug\net8.0\myWorks.Domain.dll
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Domain\bin\Debug\net8.0\myWorks.Domain.pdb
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Domain\obj\Debug\net8.0\myWorks.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Domain\obj\Debug\net8.0\myWorks.Domain.AssemblyInfoInputs.cache
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Domain\obj\Debug\net8.0\myWorks.Domain.AssemblyInfo.cs
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Domain\obj\Debug\net8.0\myWorks.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Domain\obj\Debug\net8.0\myWorks.Domain.dll
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Domain\obj\Debug\net8.0\refint\myWorks.Domain.dll
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Domain\obj\Debug\net8.0\myWorks.Domain.pdb
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Domain\obj\Debug\net8.0\ref\myWorks.Domain.dll

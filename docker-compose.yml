@@ -1,0 +1,6 @@
+services:
+  myworks:
+    image: ${DOCKER_REGISTRY-}myworks
+    build:
+      context: .
+      dockerfile: myWorks/Dockerfile

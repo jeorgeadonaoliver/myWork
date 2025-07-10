@@ -1,0 +1,69 @@
+name: dockercompose13960709627485414995
+services:
+  myworks:
+    build:
+      context: C:\Users\Jeorge Oliver\source\DockerProjects\myWork
+      dockerfile: myWorks/Dockerfile
+    depends_on:
+      seq_logs:
+        condition: service_started
+        required: true
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ASPNETCORE_HTTPS_PORTS: "8081"
+      DATABASE_HOST: myWorks_HangfireDb
+      DATABASE_PORT: "1455"
+    image: myworks
+    networks:
+      my_custom_app_network: null
+    ports:
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+      - mode: ingress
+        target: 8081
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\Jeorge Oliver\AppData\Roaming/Microsoft/UserSecrets
+        target: /home/app/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\Jeorge Oliver\AppData\Roaming/Microsoft/UserSecrets
+        target: /root/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\Jeorge Oliver\AppData\Roaming/ASP.NET/Https
+        target: /home/app/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\Jeorge Oliver\AppData\Roaming/ASP.NET/Https
+        target: /root/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+  seq_logs:
+    container_name: seq_logs
+    environment:
+      ACCEPT_EULA: "Y"
+      SEQ_FIRSTRUN_ADMINPASSWORD: StrongP@ssw0rd
+    image: datalust/seq:latest
+    networks:
+      my_custom_app_network: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "5342"
+        protocol: tcp
+    restart: unless-stopped
+networks:
+  my_custom_app_network:
+    name: my_custom_app_network
+    external: true
