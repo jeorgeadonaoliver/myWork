@@ -16,8 +16,4 @@
     <ProjectReference Include="..\myWorks.Domain\myWorks.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Features\InterviewMAnagement\Command\" />
-  </ItemGroup>
-
 </Project>

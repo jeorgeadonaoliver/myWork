@@ -5,6 +5,7 @@ C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Domain\obj\Debug\net
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Domain\obj\Debug\net8.0\myWorks.Domain.AssemblyInfoInputs.cache
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Domain\obj\Debug\net8.0\myWorks.Domain.AssemblyInfo.cs
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Domain\obj\Debug\net8.0\myWorks.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Domain\obj\Debug\net8.0\myWorks.Domain.sourcelink.json
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Domain\obj\Debug\net8.0\myWorks.Domain.dll
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Domain\obj\Debug\net8.0\refint\myWorks.Domain.dll
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Domain\obj\Debug\net8.0\myWorks.Domain.pdb

@@ -9,13 +9,11 @@ namespace myWorks.Application.Features.ApplicantManagement.Query.GetApplicant;
 public record GetApplicantQueryHandler : IRequestHandler<GetApplicantQuery, Result<IEnumerable<GetApplicantQueryDto>>>
 {
     private readonly IApplicantInformationRepository _repository;
-    private readonly IBackgroundJobService _backgroundJobService;
     private readonly ILogger<GetApplicantQueryHandler> _logger;
-    public GetApplicantQueryHandler(IApplicantInformationRepository repository, ILogger<GetApplicantQueryHandler> logger, IBackgroundJobService backgroundJobService)
+    public GetApplicantQueryHandler(IApplicantInformationRepository repository, ILogger<GetApplicantQueryHandler> logger)
     {
         _repository = repository;
         _logger = logger;
-        _backgroundJobService = backgroundJobService;
     }
     public async Task<Result<IEnumerable<GetApplicantQueryDto>>> Handle(GetApplicantQuery request, CancellationToken cancellationToken)
     {
@@ -27,8 +25,6 @@ public record GetApplicantQueryHandler : IRequestHandler<GetApplicantQuery, Resu
         }
 
         var mappedData = data.Value.Select(x => x.MapToGetApplicantQueryDto());
-        string email = "jeorgeoliver@yahoo.com";
-        _backgroundJobService.Enqueue<IVerificationEmail>(x => x.Send(email));
         return Result.Ok(mappedData);
 
     }

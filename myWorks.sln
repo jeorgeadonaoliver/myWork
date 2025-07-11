@@ -27,6 +27,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{1B14
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "myWorks.Service", "myWorks.Service\myWorks.Service.csproj", "{148A7AC2-014B-8F80-9DE2-602DF694F087}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "k8s", "k8s", "{51FACC9C-4503-4E71-81C9-64AE905A554B}"
+	ProjectSection(SolutionItems) = preProject
+		k8s\admin-user-cluster-role.yml = k8s\admin-user-cluster-role.yml
+		k8s\admin-user.yml = k8s\admin-user.yml
+		namespace.yml = namespace.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

@@ -19,17 +19,24 @@ namespace myWorks.Service.Email
 
             try
             {
-                var response = await _httpClient.GetAsync($"http://host.docker.internal:5227/api/Registration/SendVerificationEmail?email={email}");
+                string url = $"https://mywork-emailsender:8081/api/Registration/SendVerificationEmail?email={email}";
+
+                var response = await _httpClient.GetAsync(url);
                 response.EnsureSuccessStatusCode();
                 var data = await response.Content.ReadAsStringAsync();
-                Console.WriteLine($"Email status: {data}");
+
                 _logger.LogInformation($"Email status: {data}");
                 return data;
             }
             catch (HttpRequestException ex)
             {
-                Console.WriteLine($"Request failed: {ex.Message}");
+                _logger.LogError(ex, $"Request to email sender failed: {ex.Message}");
                 return $"Request failed: {ex.Message}";
+            }
+            catch (Exception ex) // Catch other potential exceptions
+            {
+                _logger.LogError(ex, $"An unexpected error occurred while sending email verification: {ex.Message}");
+                return $"An unexpected error occurred: {ex.Message}";
             }
 
         }

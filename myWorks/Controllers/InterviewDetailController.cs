@@ -1,6 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using myWorks.Application.Features.InterviewMAnagement.Query.GetInterviewDetailByApplicantId;
+﻿using Microsoft.AspNetCore.Mvc;
+using myWorks.Application.Features.InterviewMAnagement.Query.GetInterviewDetailByApplicantionId;
 using myWorks.Application.Interface.Repository;
 
 namespace myWorks.Controllers

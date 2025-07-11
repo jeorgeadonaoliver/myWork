@@ -2,7 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using myWorks.Application.Features.ApplicantManagement.Query.GetApplicant;
 using myWorks.Application.Features.ApplicantManagement.Query.GetApplicantById;
-using myWorks.Application.Features.InterviewMAnagement.Query.GetInterviewDetailByApplicantId;
+using myWorks.Application.Features.InterviewMAnagement.Query.GetInterviewDetailByApplicantionId;
 using myWorks.Application.Interface.Repository;
 
 namespace myWorks.Application

@@ -6,8 +6,8 @@ services:
       - ASPNETCORE_HTTPS_PORTS=8081
       - DATABASE_HOST=myWorkDb_mssql
       - DATABASE_PORT=1400
-      - DATABASE_HOST=myWorks_HangfireDb
-      - DATABASE_PORT=1455 
+      # - DATABASE_HOST=myWorks_HangfireDb
+      # - DATABASE_PORT=1455 
     ports:
       - "8080"
       - "8081"

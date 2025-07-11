@@ -1,4 +1,4 @@
-﻿using myWorks.Application.Features.InterviewMAnagement.Query.GetInterviewDetailByApplicantId;
+﻿using myWorks.Application.Features.InterviewMAnagement.Query.GetInterviewDetailByApplicantionId;
 using myWorks.Domain.myWorkDb;
 
 namespace myWorks.Application.Extension;

@@ -169,6 +169,7 @@ C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks\obj\Debug\net8.0\myW
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks\obj\Debug\net8.0\myWorks.csproj.CoreCompileInputs.cache
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks\obj\Debug\net8.0\myWorks.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks\obj\Debug\net8.0\myWorks.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks\obj\Debug\net8.0\myWorks.sourcelink.json
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json

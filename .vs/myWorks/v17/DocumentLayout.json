@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Jeorge Oliver\\source\\DockerProjects\\myWork\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{41D28261-AC97-86EF-8AF0-2A525EA83A0A}|myWorks\\myWorks.csproj|c:\\users\\jeorge oliver\\source\\dockerprojects\\mywork\\myworks\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{41D28261-AC97-86EF-8AF0-2A525EA83A0A}|myWorks\\myWorks.csproj|solutionrelative:myworks\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{7C87E4DD-5FF5-E3D6-FB15-145EE5752341}|myWorks.Application\\myWorks.Application.csproj|c:\\users\\jeorge oliver\\source\\dockerprojects\\mywork\\myworks.application\\features\\interviewmanagement\\command\\updateinterviewdetail\\updateinterviewdetailcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C87E4DD-5FF5-E3D6-FB15-145EE5752341}|myWorks.Application\\myWorks.Application.csproj|solutionrelative:myworks.application\\features\\interviewmanagement\\command\\updateinterviewdetail\\updateinterviewdetailcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|c:\\users\\jeorge oliver\\source\\dockerprojects\\mywork\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{81DDED9D-158B-E303-5F62-77A2896D2A5A}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{7C87E4DD-5FF5-E3D6-FB15-145EE5752341}|myWorks.Application\\myWorks.Application.csproj|c:\\users\\jeorge oliver\\source\\dockerprojects\\mywork\\myworks.application\\features\\interviewmanagement\\command\\createinterviewdetail\\createinterviewdetailcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C87E4DD-5FF5-E3D6-FB15-145EE5752341}|myWorks.Application\\myWorks.Application.csproj|solutionrelative:myworks.application\\features\\interviewmanagement\\command\\createinterviewdetail\\createinterviewdetailcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,27 +31,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "docker-compose.yml",
-              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\DockerProjects\\myWork\\docker-compose.yml",
-              "RelativeDocumentMoniker": "docker-compose.yml",
-              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\DockerProjects\\myWork\\docker-compose.yml",
-              "RelativeToolTip": "docker-compose.yml",
+              "Title": "CreateInterviewDetailCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\DockerProjects\\myWork\\myWorks.Application\\Features\\InterviewMAnagement\\Command\\CreateInterviewDetail\\CreateInterviewDetailCommandHandler.cs",
+              "RelativeDocumentMoniker": "myWorks.Application\\Features\\InterviewMAnagement\\Command\\CreateInterviewDetail\\CreateInterviewDetailCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\DockerProjects\\myWork\\myWorks.Application\\Features\\InterviewMAnagement\\Command\\CreateInterviewDetail\\CreateInterviewDetailCommandHandler.cs",
+              "RelativeToolTip": "myWorks.Application\\Features\\InterviewMAnagement\\Command\\CreateInterviewDetail\\CreateInterviewDetailCommandHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2025-07-10T23:16:53.357Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T09:40:38.915Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\DockerProjects\\myWork\\myWorks\\Dockerfile",
-              "RelativeDocumentMoniker": "myWorks\\Dockerfile",
-              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\DockerProjects\\myWork\\myWorks\\Dockerfile",
-              "RelativeToolTip": "myWorks\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-07-10T23:12:15.792Z",
+              "Title": "UpdateInterviewDetailCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\DockerProjects\\myWork\\myWorks.Application\\Features\\InterviewMAnagement\\Command\\UpdateInterviewDetail\\UpdateInterviewDetailCommandHandler.cs",
+              "RelativeDocumentMoniker": "myWorks.Application\\Features\\InterviewMAnagement\\Command\\UpdateInterviewDetail\\UpdateInterviewDetailCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\DockerProjects\\myWork\\myWorks.Application\\Features\\InterviewMAnagement\\Command\\UpdateInterviewDetail\\UpdateInterviewDetailCommandHandler.cs",
+              "RelativeToolTip": "myWorks.Application\\Features\\InterviewMAnagement\\Command\\UpdateInterviewDetail\\UpdateInterviewDetailCommandHandler.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCUAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T09:28:33.107Z",
               "EditorCaption": ""
             }
           ]

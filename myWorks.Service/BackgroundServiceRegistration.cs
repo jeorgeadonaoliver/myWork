@@ -22,13 +22,19 @@ namespace myWorks.Service
                     DisableGlobalLocks = true
                 })); 
 
-            // 2. Add Hangfire Server (Optional, but usually needed for processing jobs)
+
             service.AddHangfireServer();
 
-            // Program.cs or Infrastructure/DependencyInjection.cs
             service.AddSingleton<IBackgroundJobService, HangfireBackgroundJobService>();
 
-            service.AddHttpClient<IVerificationEmail, VerificationEmail>();
+            service.AddHttpClient<IVerificationEmail, VerificationEmail>()
+                   .ConfigurePrimaryHttpMessageHandler(() => {
+                       var handler = new HttpClientHandler();
+
+                       // WARNING: ONLY FOR DEVELOPMENT/TESTING. DO NOT USE IN PRODUCTION.
+                       handler.ServerCertificateCustomValidationCallback = (message, cert, chain, errors) => true;
+                       return handler;
+                   });
 
             return service;
         }
