@@ -36,6 +36,15 @@ namespace myWorks.Service
                        return handler;
                    });
 
+            service.AddHttpClient<IInterviewScheduleEmail, InterviewScheduleEmail>()
+                   .ConfigurePrimaryHttpMessageHandler(() => {
+                       var handler = new HttpClientHandler();
+
+                       // WARNING: ONLY FOR DEVELOPMENT/TESTING. DO NOT USE IN PRODUCTION.
+                       handler.ServerCertificateCustomValidationCallback = (message, cert, chain, errors) => true;
+                       return handler;
+                   });
+
             return service;
         }
 

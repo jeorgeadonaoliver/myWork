@@ -1,3 +1,11 @@
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks\obj\Debug\net8.0\myWorks.csproj.AssemblyReference.cache
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks\obj\Debug\net8.0\myWorks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks\obj\Debug\net8.0\myWorks.AssemblyInfoInputs.cache
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks\obj\Debug\net8.0\myWorks.AssemblyInfo.cs
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks\obj\Debug\net8.0\myWorks.csproj.CoreCompileInputs.cache
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks\obj\Debug\net8.0\myWorks.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks\obj\Debug\net8.0\myWorks.sourcelink.json
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks\bin\Debug\net8.0\appsettings.json
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks\bin\Debug\net8.0\myWorks.staticwebassets.endpoints.json
@@ -161,15 +169,7 @@ C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks\bin\Debug\net8.0\myW
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks\bin\Debug\net8.0\myWorks.Persistence.pdb
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks\bin\Debug\net8.0\myWorks.Service.pdb
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks\bin\Debug\net8.0\myWorks.Domain.pdb
-C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks\obj\Debug\net8.0\myWorks.csproj.AssemblyReference.cache
-C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks\obj\Debug\net8.0\rpswa.dswa.cache.json
-C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks\obj\Debug\net8.0\myWorks.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks\obj\Debug\net8.0\myWorks.AssemblyInfoInputs.cache
-C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks\obj\Debug\net8.0\myWorks.AssemblyInfo.cs
-C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks\obj\Debug\net8.0\myWorks.csproj.CoreCompileInputs.cache
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks\obj\Debug\net8.0\myWorks.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks\obj\Debug\net8.0\myWorks.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks\obj\Debug\net8.0\myWorks.sourcelink.json
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json

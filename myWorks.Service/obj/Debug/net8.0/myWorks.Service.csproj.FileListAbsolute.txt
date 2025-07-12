@@ -15,6 +15,12 @@ C:\Users\Jeorge Oliver\source\DockerProjects\myWorks.Service\obj\Debug\net8.0\my
 C:\Users\Jeorge Oliver\source\DockerProjects\myWorks.Service\obj\Debug\net8.0\refint\myWorks.Service.dll
 C:\Users\Jeorge Oliver\source\DockerProjects\myWorks.Service\obj\Debug\net8.0\myWorks.Service.pdb
 C:\Users\Jeorge Oliver\source\DockerProjects\myWorks.Service\obj\Debug\net8.0\ref\myWorks.Service.dll
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Service\obj\Debug\net8.0\myWorks.Service.csproj.AssemblyReference.cache
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Service\obj\Debug\net8.0\myWorks.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Service\obj\Debug\net8.0\myWorks.Service.AssemblyInfoInputs.cache
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Service\obj\Debug\net8.0\myWorks.Service.AssemblyInfo.cs
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Service\obj\Debug\net8.0\myWorks.Service.csproj.CoreCompileInputs.cache
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Service\obj\Debug\net8.0\myWorks.Service.sourcelink.json
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Service\bin\Debug\net8.0\myWorks.Service.deps.json
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Service\bin\Debug\net8.0\myWorks.Service.dll
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Service\bin\Debug\net8.0\myWorks.Service.pdb
@@ -22,12 +28,6 @@ C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Service\bin\Debug\ne
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Service\bin\Debug\net8.0\myWorks.Domain.dll
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Service\bin\Debug\net8.0\myWorks.Application.pdb
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Service\bin\Debug\net8.0\myWorks.Domain.pdb
-C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Service\obj\Debug\net8.0\myWorks.Service.csproj.AssemblyReference.cache
-C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Service\obj\Debug\net8.0\myWorks.Service.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Service\obj\Debug\net8.0\myWorks.Service.AssemblyInfoInputs.cache
-C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Service\obj\Debug\net8.0\myWorks.Service.AssemblyInfo.cs
-C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Service\obj\Debug\net8.0\myWorks.Service.csproj.CoreCompileInputs.cache
-C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Service\obj\Debug\net8.0\myWorks.Service.sourcelink.json
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Service\obj\Debug\net8.0\myWorks..D5E2C971.Up2Date
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Service\obj\Debug\net8.0\myWorks.Service.dll
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\myWorks.Service\obj\Debug\net8.0\refint\myWorks.Service.dll

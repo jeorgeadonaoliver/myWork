@@ -1,10 +1,11 @@
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\bin\Debug\myWorks.dll
+C:\Users\Jeorge Oliver\source\DockerProjects\myWork\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\bin\Debug\myWorks.deps.json
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\bin\Debug\myWorks.runtimeconfig.json
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\bin\Debug\appsettings.Development.json
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\bin\Debug\appsettings.json
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\bin\Debug\myWorks.staticwebassets.endpoints.json
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\bin\Debug\myWorks.exe
-C:\Users\Jeorge Oliver\source\DockerProjects\myWork\bin\Debug\myWorks.dll
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\bin\Debug\Serilog.dll
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
@@ -60,5 +61,4 @@ C:\Users\Jeorge Oliver\source\DockerProjects\myWork\bin\Debug\tr-TR\Hangfire.Cor
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\bin\Debug\zh\Hangfire.Core.resources.dll
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\bin\Debug\zh-TW\Hangfire.Core.resources.dll
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
-C:\Users\Jeorge Oliver\source\DockerProjects\myWork\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\Users\Jeorge Oliver\source\DockerProjects\myWork\obj\Debug\docker-c.35A3FFBA.Up2Date

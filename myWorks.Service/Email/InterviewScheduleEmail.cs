@@ -1,10 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
 using myWorks.Application.Interface.Service;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace myWorks.Service.Email
 {
@@ -13,7 +8,7 @@ namespace myWorks.Service.Email
         private readonly HttpClient _httpClient;
         private readonly ILogger<VerificationEmail> _logger;
 
-        public InterviewScheduleEmail(HttpClient httpClient, ILogger<VerificationEmail> logger, )
+        public InterviewScheduleEmail(HttpClient httpClient, ILogger<VerificationEmail> logger)
         {
             _httpClient = httpClient;
             _logger = logger;
