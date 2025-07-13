@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using myWorks.Application.Features.Job_Application.Command.CreateJobApplication;
+using myWorks.Application.Features.Job_Application.Command.UpdateJobApplication;
 using myWorks.Application.Features.Job_Application.Query.GetJobApplication;
 using myWorks.Application.Features.Job_Application.Query.GetJobApplicationByApplicant;
 using myWorks.Application.Interface.Repository;
@@ -24,10 +26,8 @@ public class JobApplicationController : ControllerBase
         {
             return Ok(response.Value.Value);
         }
-        else
-        {
-            return BadRequest(response); 
-        }
+
+        return BadRequest(response); 
     }
 
     [HttpGet("GetJobApplication")]
@@ -38,9 +38,31 @@ public class JobApplicationController : ControllerBase
         {
             return Ok(response.Value.Value); 
         }
-        else
+
+        return BadRequest(response);    
+    }
+
+    [HttpPost("CreateJobApplication")]
+    public async Task<IActionResult> CreateJobApplicationAsync(CreateJobApplicationCommand command, CancellationToken cancellationToken)
+    {
+        var response = await _dispatcher.Send(command, cancellationToken);
+        if (response.IsSuccess)
         {
-            return BadRequest(response); 
+            return Ok(response.Value.Value);
         }
+
+        return BadRequest(response); 
+    }
+
+    [HttpPut("UpdateJobApplication")]
+    public async Task<IActionResult> UpdateJobApplicationAsync(UpdateJobApplicationCommand command, CancellationToken cancellationToken)
+    {
+        var response = await _dispatcher.Send(command, cancellationToken);
+        if (response.IsSuccess)
+        {
+            return Ok(response.Value.Value);
+        }
+
+        return BadRequest(response);
     }
 }

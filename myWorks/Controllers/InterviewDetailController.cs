@@ -24,14 +24,14 @@ namespace myWorks.Controllers
             return Ok(response.Value.Value);
         }
 
-        [HttpGet("CreateInterviewDetail")]
+        [HttpPost("CreateInterviewDetail")]
         public async Task<IActionResult> CreateInterviewDetail(CreateInterviewDetailCommand cmd, CancellationToken cancellationToken)
         {
             var response = await _requestDispatcher.Send(cmd, cancellationToken);
             return Ok(response.Value.Value);
         }
 
-        [HttpGet("UpdateInterviewDetail")]
+        [HttpPut("UpdateInterviewDetail")]
         public async Task<IActionResult> UpdateInterviewDetail(UpdateInterviewDetailCommand cmd, CancellationToken cancellationToken)
         {
             var response = await _requestDispatcher.Send(cmd, cancellationToken);
