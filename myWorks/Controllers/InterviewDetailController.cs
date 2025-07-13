@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using myWorks.Application.Features.InterviewMAnagement.Command.CreateInterviewDetail;
+using myWorks.Application.Features.InterviewMAnagement.Command.UpdateInterviewDetail;
 using myWorks.Application.Features.InterviewMAnagement.Query.GetInterviewDetailByApplicantionId;
 using myWorks.Application.Interface.Repository;
 
@@ -19,6 +21,20 @@ namespace myWorks.Controllers
         public async Task<IActionResult> GetInterviewDetailByApplicantId(Guid id, CancellationToken cancellationToken)
         {
             var response = await _requestDispatcher.Send(new GetInterviewDetailByApplicantionIdQuery(id), cancellationToken);
+            return Ok(response.Value.Value);
+        }
+
+        [HttpGet("CreateInterviewDetail")]
+        public async Task<IActionResult> CreateInterviewDetail(CreateInterviewDetailCommand cmd, CancellationToken cancellationToken)
+        {
+            var response = await _requestDispatcher.Send(cmd, cancellationToken);
+            return Ok(response.Value.Value);
+        }
+
+        [HttpGet("UpdateInterviewDetail")]
+        public async Task<IActionResult> UpdateInterviewDetail(UpdateInterviewDetailCommand cmd, CancellationToken cancellationToken)
+        {
+            var response = await _requestDispatcher.Send(cmd, cancellationToken);
             return Ok(response.Value.Value);
         }
     }

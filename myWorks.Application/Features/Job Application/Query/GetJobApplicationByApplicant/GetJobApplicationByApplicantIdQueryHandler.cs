@@ -16,10 +16,11 @@ public class GetJobApplicationByApplicantIdQueryHandler : IRequestHandler<GetJob
     {
         var data = await _repository.GetDetailAsync(x => x.ApplicantId == request.id, cancellationToken);
 
-        if (data.IsFailed || data.Value is null) 
-        {
-            return Result.Fail($"Error on getting Applicantion. Errors: {string.Join("; ", data.Errors)}");
-        }
+        if (data.IsFailed) 
+            return Result.Fail($"Errors: {string.Join("; ", data.Errors)}");
+        
+        if(data.Value is null)
+            return Result.Fail("No job application found for the given applicant ID.");
 
         var mappedData = data.Value.MapToGetJobApplicationByApplicantIdQueryDto();
         return Result.Ok(mappedData);

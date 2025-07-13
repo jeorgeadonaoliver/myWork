@@ -16,7 +16,7 @@ builder.Services.AddPersistenceService(builder.Configuration);
 builder.Services.AddApplicationServices();
 builder.Services.AddCorsPolicyService();
 builder.Services.AddBackgroundService(builder.Configuration);
-
+builder.Services.AddRequestHandlerWrappers();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

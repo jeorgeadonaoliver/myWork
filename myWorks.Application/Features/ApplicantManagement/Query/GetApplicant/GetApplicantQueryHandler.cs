@@ -2,7 +2,6 @@
 using Microsoft.Extensions.Logging;
 using myWorks.Application.Extension;
 using myWorks.Application.Interface.Repository;
-using myWorks.Application.Interface.Service;
 
 namespace myWorks.Application.Features.ApplicantManagement.Query.GetApplicant;
 
@@ -15,17 +14,17 @@ public record GetApplicantQueryHandler : IRequestHandler<GetApplicantQuery, Resu
         _repository = repository;
         _logger = logger;
     }
+
     public async Task<Result<IEnumerable<GetApplicantQueryDto>>> Handle(GetApplicantQuery request, CancellationToken cancellationToken)
     {
         var data = await _repository.GetAllAsync(cancellationToken);
-        if (data.IsFailed) 
+        if (data.IsFailed)
         {
-            _logger.LogError("Failed to retrieve applicants: {Errors}", string.Join("; ", data.Errors));
+            _logger.LogError($"Failed to retrieve applicants: {data.Errors}", string.Join("; ", data.Errors));
             return Result.Ok(Enumerable.Empty<GetApplicantQueryDto>()).WithError("Failed to retrieve applicants");
         }
 
         var mappedData = data.Value.Select(x => x.MapToGetApplicantQueryDto());
         return Result.Ok(mappedData);
-
     }
 }

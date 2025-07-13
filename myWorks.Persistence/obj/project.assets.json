@@ -64,6 +64,14 @@
           }
         }
       },
+      "Hangfire/1.8.20": {
+        "type": "package",
+        "dependencies": {
+          "Hangfire.AspNetCore": "[1.8.20]",
+          "Hangfire.Core": "[1.8.20]",
+          "Hangfire.SqlServer": "[1.8.20]"
+        }
+      },
       "Hangfire.AspNetCore/1.8.20": {
         "type": "package",
         "dependencies": {
@@ -158,6 +166,22 @@
         },
         "runtime": {
           "lib/netstandard2.1/Hangfire.NetCore.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Hangfire.SqlServer/1.8.20": {
+        "type": "package",
+        "dependencies": {
+          "Hangfire.Core": "[1.8.20]"
+        },
+        "compile": {
+          "lib/netstandard2.0/Hangfire.SqlServer.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Hangfire.SqlServer.dll": {
             "related": ".xml"
           }
         }
@@ -1712,6 +1736,22 @@
         "runtime": {
           "bin/placeholder/myWorks.Domain.dll": {}
         }
+      },
+      "myWorks.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Hangfire": "1.8.20",
+          "Hangfire.AspNetCore": "1.8.20",
+          "Hangfire.SqlServer": "1.8.20",
+          "myWorks.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/myWorks.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/myWorks.Service.dll": {}
+        }
       }
     }
   },
@@ -1773,6 +1813,25 @@
         "lib/netstandard2.0/FluentResults.xml",
         "lib/netstandard2.1/FluentResults.dll",
         "lib/netstandard2.1/FluentResults.xml"
+      ]
+    },
+    "Hangfire/1.8.20": {
+      "sha512": "Q6W4JGbcr1Tg0IGyEg+VLx5OrhEKCIPAYm86RaRd6dpnozi6Ns6e6+71tRHTLMiz5XESf5msnZA61eW+xwZA6Q==",
+      "type": "package",
+      "path": "hangfire/1.8.20",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "COPYING",
+        "COPYING.LESSER",
+        "LICENSE.md",
+        "LICENSE_ROYALTYFREE",
+        "LICENSE_STANDARD",
+        "NOTICES",
+        "README.md",
+        "hangfire.1.8.20.nupkg.sha512",
+        "hangfire.nuspec",
+        "icon.png"
       ]
     },
     "Hangfire.AspNetCore/1.8.20": {
@@ -1912,6 +1971,32 @@
         "lib/netstandard2.0/Hangfire.NetCore.xml",
         "lib/netstandard2.1/Hangfire.NetCore.dll",
         "lib/netstandard2.1/Hangfire.NetCore.xml"
+      ]
+    },
+    "Hangfire.SqlServer/1.8.20": {
+      "sha512": "O+0A2dEf+cbKnJQRxK5jF5c4aLDCOf2+KllYBwjdO82KRVKz0nox8wirWQP/AKW85f4NJ93ZKAEtAWOFk6DLxw==",
+      "type": "package",
+      "path": "hangfire.sqlserver/1.8.20",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "COPYING",
+        "COPYING.LESSER",
+        "LICENSE.md",
+        "LICENSE_ROYALTYFREE",
+        "LICENSE_STANDARD",
+        "NOTICES",
+        "hangfire.sqlserver.1.8.20.nupkg.sha512",
+        "hangfire.sqlserver.nuspec",
+        "icon.png",
+        "lib/net451/Hangfire.SqlServer.dll",
+        "lib/net451/Hangfire.SqlServer.xml",
+        "lib/netstandard1.3/Hangfire.SqlServer.dll",
+        "lib/netstandard1.3/Hangfire.SqlServer.xml",
+        "lib/netstandard2.0/Hangfire.SqlServer.dll",
+        "lib/netstandard2.0/Hangfire.SqlServer.xml",
+        "tools/install.sql"
       ]
     },
     "Humanizer.Core/2.14.1": {
@@ -4499,6 +4584,11 @@
       "type": "project",
       "path": "../myWorks.Domain/myWorks.Domain.csproj",
       "msbuildProject": "../myWorks.Domain/myWorks.Domain.csproj"
+    },
+    "myWorks.Service/1.0.0": {
+      "type": "project",
+      "path": "../myWorks.Service/myWorks.Service.csproj",
+      "msbuildProject": "../myWorks.Service/myWorks.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4510,7 +4600,8 @@
       "Polly >= 8.6.1",
       "Polly.Core >= 8.6.1",
       "myWorks.Application >= 1.0.0",
-      "myWorks.Domain >= 1.0.0"
+      "myWorks.Domain >= 1.0.0",
+      "myWorks.Service >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4551,6 +4642,9 @@
             },
             "C:\\Users\\Jeorge Oliver\\source\\DockerProjects\\myWork\\myWorks.Domain\\myWorks.Domain.csproj": {
               "projectPath": "C:\\Users\\Jeorge Oliver\\source\\DockerProjects\\myWork\\myWorks.Domain\\myWorks.Domain.csproj"
+            },
+            "C:\\Users\\Jeorge Oliver\\source\\DockerProjects\\myWork\\myWorks.Service\\myWorks.Service.csproj": {
+              "projectPath": "C:\\Users\\Jeorge Oliver\\source\\DockerProjects\\myWork\\myWorks.Service\\myWorks.Service.csproj"
             }
           }
         }

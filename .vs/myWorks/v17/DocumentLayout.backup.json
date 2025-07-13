@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Jeorge Oliver\\source\\DockerProjects\\myWork\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{148A7AC2-014B-8F80-9DE2-602DF694F087}|myWorks.Service\\myWorks.Service.csproj|c:\\users\\jeorge oliver\\source\\dockerprojects\\mywork\\myworks.service\\email\\interviewscheduleemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{148A7AC2-014B-8F80-9DE2-602DF694F087}|myWorks.Service\\myWorks.Service.csproj|solutionrelative:myworks.service\\email\\interviewscheduleemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{148A7AC2-014B-8F80-9DE2-602DF694F087}|myWorks.Service\\myWorks.Service.csproj|c:\\users\\jeorge oliver\\source\\dockerprojects\\mywork\\myworks.service\\backgroundserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{148A7AC2-014B-8F80-9DE2-602DF694F087}|myWorks.Service\\myWorks.Service.csproj|solutionrelative:myworks.service\\backgroundserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{148A7AC2-014B-8F80-9DE2-602DF694F087}|myWorks.Service\\myWorks.Service.csproj|c:\\users\\jeorge oliver\\source\\dockerprojects\\mywork\\myworks.service\\email\\verificationemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{148A7AC2-014B-8F80-9DE2-602DF694F087}|myWorks.Service\\myWorks.Service.csproj|solutionrelative:myworks.service\\email\\verificationemail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{148A7AC2-014B-8F80-9DE2-602DF694F087}|myWorks.Service\\myWorks.Service.csproj|c:\\users\\jeorge oliver\\source\\dockerprojects\\mywork\\myworks.service\\hangfirebackgroundjobservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{148A7AC2-014B-8F80-9DE2-602DF694F087}|myWorks.Service\\myWorks.Service.csproj|solutionrelative:myworks.service\\hangfirebackgroundjobservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C87E4DD-5FF5-E3D6-FB15-145EE5752341}|myWorks.Application\\myWorks.Application.csproj|c:\\users\\jeorge oliver\\source\\dockerprojects\\mywork\\myworks.application\\features\\job application\\query\\getjobapplicationbyapplicant\\getjobapplicationbyapplicantidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C87E4DD-5FF5-E3D6-FB15-145EE5752341}|myWorks.Application\\myWorks.Application.csproj|solutionrelative:myworks.application\\features\\job application\\query\\getjobapplicationbyapplicant\\getjobapplicationbyapplicantidqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7C87E4DD-5FF5-E3D6-FB15-145EE5752341}|myWorks.Application\\myWorks.Application.csproj|c:\\users\\jeorge oliver\\source\\dockerprojects\\mywork\\myworks.application\\features\\interviewmanagement\\command\\createinterviewdetail\\createinterviewdetailcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7C87E4DD-5FF5-E3D6-FB15-145EE5752341}|myWorks.Application\\myWorks.Application.csproj|solutionrelative:myworks.application\\features\\interviewmanagement\\command\\createinterviewdetail\\createinterviewdetailcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{41D28261-AC97-86EF-8AF0-2A525EA83A0A}|myWorks\\myWorks.csproj|c:\\users\\jeorge oliver\\source\\dockerprojects\\mywork\\myworks\\controllers\\interviewdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41D28261-AC97-86EF-8AF0-2A525EA83A0A}|myWorks\\myWorks.csproj|solutionrelative:myworks\\controllers\\interviewdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,80 +26,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VerificationEmail.cs",
-              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\DockerProjects\\myWork\\myWorks.Service\\Email\\VerificationEmail.cs",
-              "RelativeDocumentMoniker": "myWorks.Service\\Email\\VerificationEmail.cs",
-              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\DockerProjects\\myWork\\myWorks.Service\\Email\\VerificationEmail.cs",
-              "RelativeToolTip": "myWorks.Service\\Email\\VerificationEmail.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T05:02:59.461Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HangfireBackgroundJobService .cs",
-              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\DockerProjects\\myWork\\myWorks.Service\\HangfireBackgroundJobService .cs",
-              "RelativeDocumentMoniker": "myWorks.Service\\HangfireBackgroundJobService .cs",
-              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\DockerProjects\\myWork\\myWorks.Service\\HangfireBackgroundJobService .cs",
-              "RelativeToolTip": "myWorks.Service\\HangfireBackgroundJobService .cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T05:02:23.631Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BackgroundServiceRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\DockerProjects\\myWork\\myWorks.Service\\BackgroundServiceRegistration.cs",
-              "RelativeDocumentMoniker": "myWorks.Service\\BackgroundServiceRegistration.cs",
-              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\DockerProjects\\myWork\\myWorks.Service\\BackgroundServiceRegistration.cs",
-              "RelativeToolTip": "myWorks.Service\\BackgroundServiceRegistration.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAkwDAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T05:02:19.798Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "InterviewScheduleEmail.cs",
-              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\DockerProjects\\myWork\\myWorks.Service\\Email\\InterviewScheduleEmail.cs",
-              "RelativeDocumentMoniker": "myWorks.Service\\Email\\InterviewScheduleEmail.cs",
-              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\DockerProjects\\myWork\\myWorks.Service\\Email\\InterviewScheduleEmail.cs",
-              "RelativeToolTip": "myWorks.Service\\Email\\InterviewScheduleEmail.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAABeAAAAAAAAAA==",
+              "Title": "InterviewDetailController.cs",
+              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\DockerProjects\\myWork\\myWorks\\Controllers\\InterviewDetailController.cs",
+              "RelativeDocumentMoniker": "myWorks\\Controllers\\InterviewDetailController.cs",
+              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\DockerProjects\\myWork\\myWorks\\Controllers\\InterviewDetailController.cs",
+              "RelativeToolTip": "myWorks\\Controllers\\InterviewDetailController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T05:01:46.972Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GetJobApplicationByApplicantIdQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\DockerProjects\\myWork\\myWorks.Application\\Features\\Job Application\\Query\\GetJobApplicationByApplicant\\GetJobApplicationByApplicantIdQueryHandler.cs",
-              "RelativeDocumentMoniker": "myWorks.Application\\Features\\Job Application\\Query\\GetJobApplicationByApplicant\\GetJobApplicationByApplicantIdQueryHandler.cs",
-              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\DockerProjects\\myWork\\myWorks.Application\\Features\\Job Application\\Query\\GetJobApplicationByApplicant\\GetJobApplicationByApplicantIdQueryHandler.cs",
-              "RelativeToolTip": "myWorks.Application\\Features\\Job Application\\Query\\GetJobApplicationByApplicant\\GetJobApplicationByApplicantIdQueryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-12T03:16:01.111Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CreateInterviewDetailCommandHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Jeorge Oliver\\source\\DockerProjects\\myWork\\myWorks.Application\\Features\\InterviewMAnagement\\Command\\CreateInterviewDetail\\CreateInterviewDetailCommandHandler.cs",
-              "RelativeDocumentMoniker": "myWorks.Application\\Features\\InterviewMAnagement\\Command\\CreateInterviewDetail\\CreateInterviewDetailCommandHandler.cs",
-              "ToolTip": "C:\\Users\\Jeorge Oliver\\source\\DockerProjects\\myWork\\myWorks.Application\\Features\\InterviewMAnagement\\Command\\CreateInterviewDetail\\CreateInterviewDetailCommandHandler.cs",
-              "RelativeToolTip": "myWorks.Application\\Features\\InterviewMAnagement\\Command\\CreateInterviewDetail\\CreateInterviewDetailCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-11T09:40:38.915Z",
+              "WhenOpened": "2025-07-12T15:52:58.156Z",
               "EditorCaption": ""
             }
           ]

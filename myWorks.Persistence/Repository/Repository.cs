@@ -1,9 +1,6 @@
 ﻿using FluentResults;
-using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using myWorks.Application.Interface.Repository;
-using Polly;
-using System.Collections.Generic;
 using System.Linq.Expressions;
 
 namespace myWorks.Persistence.Repository
@@ -20,9 +17,6 @@ namespace myWorks.Persistence.Repository
 
         public async Task<Result<int>> AddAsync(T entity, CancellationToken cancellationToken)
         {
-
-            //var retryPolicy = Policy.Handle<SqlException>().WaitAndRetryAsync(3, attempt => TimeSpan.FromSeconds(Math.Pow(2, attempt)));
-
             return await _executor.ExecuteAsync<int>(async () => 
             {
                 _context.Entry(entity).State = EntityState.Added;

@@ -37,6 +37,7 @@ namespace myWorks.Application
             services.AddScoped<IRequestHandler<UpdateJobApplicationCommand, Result<Guid>>, UpdateJobApplicationCommandHandler>();
             services.AddScoped<IRequestHandler<GetJobApplicationQuery, Result<IEnumerable<GetJobApplicationQueryDto>>>, GetJobApplicationQueryHandler>();
             services.AddScoped<IRequestHandler<GetJobApplicationByApplicantIdQuery, Result<GetJobApplicationByApplicantIdQueryDto>>, GetJobApplicationByApplicantIdQueryHandler>();
+
             return services;
         }
     }

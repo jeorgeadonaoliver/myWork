@@ -21,6 +21,7 @@
   <ItemGroup>
     <ProjectReference Include="..\myWorks.Application\myWorks.Application.csproj" />
     <ProjectReference Include="..\myWorks.Domain\myWorks.Domain.csproj" />
+    <ProjectReference Include="..\myWorks.Service\myWorks.Service.csproj" />
   </ItemGroup>
 
 </Project>

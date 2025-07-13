@@ -1262,7 +1262,8 @@
           "Polly": "8.6.1",
           "Polly.Core": "8.6.1",
           "myWorks.Application": "1.0.0",
-          "myWorks.Domain": "1.0.0"
+          "myWorks.Domain": "1.0.0",
+          "myWorks.Service": "1.0.0"
         },
         "runtime": {
           "myWorks.Persistence.dll": {

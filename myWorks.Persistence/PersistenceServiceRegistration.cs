@@ -4,6 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using myWorks.Application.Interface.Repository;
 using myWorks.Persistence.MyWorkDbContexts;
 using myWorks.Persistence.Repository;
+using myWorks.Service.Request;
 
 namespace myWorks.Persistence;
 
@@ -20,7 +21,7 @@ public static class PersistenceServiceRegistration
         service.AddScoped<IApplicantInformationRepository, ApplicantInformationRepository>();
         service.AddScoped<IInterviewDetailRepository, InterviewDetailRepository>();
         service.AddScoped<IJobApplicationRepository, JobApplicationRepository>();
-        service.AddScoped<IRequestDispatcher, RequestDispatcher>();
+
 
         return service;
     }
